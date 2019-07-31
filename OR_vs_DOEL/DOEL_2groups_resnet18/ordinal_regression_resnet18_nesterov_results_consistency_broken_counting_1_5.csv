@@ -1,0 +1,17 @@
+******************************************************************
+records on AgeDB dataset under five-fold cross-validation protocol
+******************************************************************
+
+
+####test with original ordinal regression method################test_total_loss, test_argmax_MAE, test_accuracy:
+13.8489, 5.6897, 94.3666
+CS_1, CS_2, CS_3, CS_4, CS_5, CS_6, CS_7, CS_8, CS_9, CS_10:
+0.174, 0.282, 0.396, 0.494, 0.584, 0.657, 0.725, 0.780, 0.828, 0.858
+totoal_consistency_broken_count: 6
+total_test_images_count: 3300
+
+
+####test with the proposed EL-2group method################test_total_loss, test_argmax_MAE, test_accuracy:
+13.8489, 5.6888, 94.3666
+CS_1, CS_2, CS_3, CS_4, CS_5, CS_6, CS_7, CS_8, CS_9, CS_10:
+0.174, 0.282, 0.397, 0.494, 0.584, 0.657, 0.724, 0.780, 0.828, 0.858
